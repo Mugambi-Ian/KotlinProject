@@ -1,4 +1,4 @@
-package org.example.project.dashboard.presentation
+package org.example.project.modules.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -6,8 +6,8 @@ import co.touchlab.kermit.Logger
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.example.project.dashboard.data.DashboardRepository
-import org.example.project.dashboard.data.model.User
+import org.example.project.modules.dashboard.data.DashboardRepository
+import org.example.project.modules.dashboard.data.model.User
 
 class DashboardViewModel(private val repository: DashboardRepository,private val logger: Logger) : ViewModel() {
 

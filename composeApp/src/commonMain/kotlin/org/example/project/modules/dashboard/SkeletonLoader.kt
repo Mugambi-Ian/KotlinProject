@@ -1,4 +1,4 @@
-package org.example.project.dashboard.presentation
+package org.example.project.modules.dashboard
 
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable

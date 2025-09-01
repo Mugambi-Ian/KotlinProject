@@ -1,4 +1,4 @@
-package org.example.project.dashboard.presentation
+package org.example.project.modules.dashboard
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import org.example.project.dashboard.data.model.User
+import org.example.project.modules.dashboard.data.model.User
 
 @Composable
 fun DashboardItem(user: User) {

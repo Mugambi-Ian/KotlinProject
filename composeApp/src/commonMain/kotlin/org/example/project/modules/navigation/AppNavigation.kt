@@ -1,6 +1,5 @@
-package org.example.project.navigation
+package org.example.project.modules.navigation
 
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -14,10 +13,10 @@ import androidx.compose.runtime.setValue
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Home
 import compose.icons.feathericons.User
-import org.example.project.dashboard.presentation.DashboardScreen
-import org.example.project.dashboard.presentation.DashboardViewModel
-import org.example.project.profile.ProfileScreen
-import org.example.project.profile.ProfileViewModel
+import org.example.project.modules.dashboard.DashboardScreen
+import org.example.project.modules.dashboard.DashboardViewModel
+import org.example.project.modules.profile.ProfileScreen
+import org.example.project.modules.profile.ProfileViewModel
 
 @Composable
 fun AppNavigation(profileViewModel: ProfileViewModel,dashboardViewModel: DashboardViewModel) {

@@ -2,10 +2,10 @@ package org.example.project.di
 
 import co.touchlab.kermit.Logger
 import io.ktor.client.HttpClient
-import org.example.project.dashboard.data.DashboardRepository
-import org.example.project.dashboard.presentation.DashboardViewModel
+import org.example.project.modules.dashboard.data.DashboardRepository
+import org.example.project.modules.dashboard.DashboardViewModel
 import org.koin.dsl.module
-import org.example.project.profile.ProfileViewModel
+import org.example.project.modules.profile.ProfileViewModel
 import io.ktor.client.engine.cio.CIO
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json

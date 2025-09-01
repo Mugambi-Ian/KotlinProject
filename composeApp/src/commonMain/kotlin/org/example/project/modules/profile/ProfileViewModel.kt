@@ -1,4 +1,4 @@
-package org.example.project.profile
+package org.example.project.modules.profile
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import co.touchlab.kermit.Logger
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import org.example.project.dashboard.data.model.User
+import org.example.project.modules.dashboard.data.model.User
 
 class ProfileViewModel(private val logger: Logger) : ViewModel() {
 

@@ -1,4 +1,4 @@
-package org.example.project.profile
+package org.example.project.modules.profile
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Mail
-import org.example.project.dashboard.data.model.User
+import org.example.project.modules.dashboard.data.model.User
 
 
 @OptIn(ExperimentalMaterial3Api::class)

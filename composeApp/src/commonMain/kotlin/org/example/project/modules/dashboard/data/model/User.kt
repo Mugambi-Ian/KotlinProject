@@ -1,4 +1,4 @@
-package org.example.project.dashboard.data.model
+package org.example.project.modules.dashboard.data.model
 
 import kotlinx.serialization.Serializable
 
