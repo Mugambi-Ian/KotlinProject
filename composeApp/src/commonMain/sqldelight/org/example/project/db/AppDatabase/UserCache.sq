@@ -1,0 +1,21 @@
+-- composeApp/src/commonMain/sqldelight/org/example/project/db/AppDatabase/UserCache.sq
+CREATE TABLE UserCache (
+    id TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    language TEXT,
+    bio TEXT,
+    version INTEGER,
+    profilePicture TEXT,
+    createdAt INTEGER NOT NULL
+);
+
+selectAll:
+SELECT *
+FROM UserCache;
+
+insert:
+INSERT OR REPLACE INTO UserCache(id, name, language, bio, version, profilePicture, createdAt)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+deleteAll:
+DELETE FROM UserCache;
